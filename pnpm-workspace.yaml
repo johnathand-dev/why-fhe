@@ -1,2 +1,6 @@
 packages:
-  - videos
+  - videos/*
+
+# Vite's bundler needs esbuild's postinstall to place its native binary.
+allowBuilds:
+  esbuild: true

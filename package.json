@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "render": "node videos/render-all.mjs",
+    "audio": "node videos/audio/generate.mjs",
+    "audio:mix": "node videos/audio/mix.mjs",
+    "dev:01": "pnpm --filter @ppai/scene-01-opening dev",
+    "dev:02": "pnpm --filter @ppai/scene-02-boundaries-outer dev",
+    "dev:03": "pnpm --filter @ppai/scene-03-boundaries-inner dev",
+    "dev:04": "pnpm --filter @ppai/scene-04-what-do-we-call-it dev",
+    "dev:05": "pnpm --filter @ppai/scene-05-the-promise dev"
   },
   "keywords": [],
   "author": "",

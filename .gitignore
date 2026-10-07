@@ -1,1 +1,29 @@
 **/node_modules
+**/out
+**/dist
+
+# Environment files
+.env
+.env.*
+*.env
+
+# OS cruft
+.DS_Store
+
+# Audio / video
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.opus
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.m4v
+
+# Exception: the final rendered video
+!/homomorphic-encryption.mp4

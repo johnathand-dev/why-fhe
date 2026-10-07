@@ -1,0 +1,19 @@
+{
+  "name": "@ppai/scene-03-boundaries-inner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Video 1, Act 2b: inside the instance — orchestration, hardware, accelerator and storage boundaries.",
+  "scripts": {
+    "dev": "vite",
+    "render": "render-scene",
+    "probe": "render-scene --probe"
+  },
+  "dependencies": {
+    "@joint/core": "4.3.1",
+    "@ppai/scene-kit": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

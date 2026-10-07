@@ -1,0 +1,19 @@
+{
+  "name": "@ppai/scene-04-what-do-we-call-it",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Video 1, Act 3: the question, the vocabulary that has grown around it, and the one phrase left standing.",
+  "scripts": {
+    "dev": "vite",
+    "render": "render-scene",
+    "probe": "render-scene --probe"
+  },
+  "dependencies": {
+    "@joint/core": "4.3.1",
+    "@ppai/scene-kit": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
