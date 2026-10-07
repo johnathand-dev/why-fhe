@@ -27,3 +27,6 @@
 
 # Exception: the final rendered video
 !/homomorphic-encryption.mp4
+
+# Agent skills (installed locally)
+.agents/
